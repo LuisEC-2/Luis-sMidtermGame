@@ -5,7 +5,7 @@ public class Player : MonoBehaviour
 
 {
 public Rigidbody2D PRB;
-public float WalkSpeed = 10f;
+public float WalkSpeed = 5f;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
