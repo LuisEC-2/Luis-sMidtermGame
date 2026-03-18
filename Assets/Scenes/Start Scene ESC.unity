@@ -633,13 +633,13 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1288489196}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6e16e53aec14c1dbe3226c77c5952e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Player
   PRB: {fileID: 0}
-  WalkSpeed: 6
+  WalkSpeed: 5
 --- !u!1 &1386437403
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,7 +820,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
   PRB: {fileID: 1386437406}
-  WalkSpeed: 5
+  WalkSpeed: 6
 --- !u!1 &1631735359
 GameObject:
   m_ObjectHideFlags: 0
@@ -951,7 +951,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2056726525}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6e16e53aec14c1dbe3226c77c5952e, type: 3}
   m_Name: 
