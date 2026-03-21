@@ -14,7 +14,7 @@ public class CPlayerScript : MonoBehaviour
 
     }
 
-    void onCollisionStay2D(Collision2D bodypart)
+    void OnCollisionStay2D(Collision2D bodypart)
     {
         if (bodypart.gameObject.tag == "Player")
         {
