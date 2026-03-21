@@ -22,9 +22,11 @@ public class MainPlayerCode : MonoBehaviour
     }
 
     // Update is called once per frame
+            
     void Update()
     {
-        //Control Triangle
+        
+        //Controls Triangle
         if (Input.GetKeyDown(Tplayer1keyCode))
         {
             TplayerScript.enabled = true;
@@ -32,7 +34,7 @@ public class MainPlayerCode : MonoBehaviour
             CplayerScript.enabled = false;
         }
 
-        //Control Square
+        //Controls Square
         if (Input.GetKeyDown(Splayer2keyCode))
         {
             TplayerScript.enabled = false;
@@ -40,7 +42,7 @@ public class MainPlayerCode : MonoBehaviour
             CplayerScript.enabled = false;
         }
 
-        // Control Circle
+        // Controls Circle
         if (Input.GetKeyDown(Cplayer3keyCode))
         {
             TplayerScript.enabled = false;

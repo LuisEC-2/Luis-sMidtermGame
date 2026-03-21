@@ -14,6 +14,14 @@ public class TPlayerScript : MonoBehaviour
 
     }
 
+    void onCollisionStay2D(Collision2D bodypart)
+    {
+        if (bodypart.gameObject.tag == "Player")
+        {
+           
+        }
+    }
+
     // Update is called once per frame
     void Update()
     {
