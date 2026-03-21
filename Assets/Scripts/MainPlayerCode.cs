@@ -6,7 +6,7 @@ public class Player : MonoBehaviour
 {
     public Rigidbody2D PRB;
     public float WalkSpeed = 10f;
-    private Vector2 movement;
+    public Vector2 movement;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -17,6 +17,7 @@ public class Player : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // For movement + Diagonal movement
         float moveX = 0f;
         float moveY = 0f;
 
