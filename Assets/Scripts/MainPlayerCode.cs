@@ -19,15 +19,10 @@ public class MainPlayerCode : MonoBehaviour
     public MonoBehaviour CplayerScript;
 
     
-    //Buttons Scripts
+    //Buttons Scripts & SpriteRenderers
     public MonoBehaviour TButton;
     public MonoBehaviour SButton;
-    public MonoBehaviour Cutton;
-
-    private void OnTriggerStay(Collider other)
-    {
-      //  if (other.gameObject.tag == "Button")
-    }
+    public MonoBehaviour CButton;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()

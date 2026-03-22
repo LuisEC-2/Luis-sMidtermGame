@@ -7,6 +7,9 @@ TagManager:
   - PlayerT
   - PlayerS
   - PlayerC
+  - ButtonT
+  - ButtonS
+  - ButtonC
   layers:
   - Default
   - TransparentFX
