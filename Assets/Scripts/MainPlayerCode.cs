@@ -24,6 +24,11 @@ public class MainPlayerCode : MonoBehaviour
     public MonoBehaviour SButton;
     public MonoBehaviour CButton;
 
+
+    public GameObject Gate;
+
+    public int GScore = 0;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -37,6 +42,7 @@ public class MainPlayerCode : MonoBehaviour
             
     void Update()
     {
+        
         
         //Controls Triangle
         if (Input.GetKeyDown(Tplayer1keyCode))

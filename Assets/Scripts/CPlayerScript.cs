@@ -8,10 +8,15 @@ public class CPlayerScript : MonoBehaviour
     public float WalkSpeed = 10f;
     public Vector2 movement;
     
+    public Vector2 StartScale;
+    public Vector2 BigScale = new Vector2(3, 3);
+    public bool Big = false;
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-
+        StartScale = transform.localScale;
+        
     }
 
     void OnCollisionStay2D(Collision2D bodypart)
@@ -59,6 +64,24 @@ public class CPlayerScript : MonoBehaviour
         }
 
         movement = new Vector2(moveX, moveY).normalized;
+        
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            if (Big)
+            {
+                transform.localScale = BigScale;
+                Big = false;
+                gameObject.layer = LayerMask.NameToLayer("BigSize");
+            }
+            else
+            {
+                transform.localScale = StartScale;
+                Big = true;
+                gameObject.layer = LayerMask.NameToLayer("Default");
+            }
+            
+        }
     }
 
     void FixedUpdate()

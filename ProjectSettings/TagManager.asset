@@ -17,8 +17,8 @@ TagManager:
   - DontCollide
   - Water
   - UI
-  - 
-  - 
+  - BigSize
+  - BigPhasableWall
   - 
   - 
   - 

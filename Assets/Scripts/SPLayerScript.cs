@@ -59,6 +59,12 @@ public class SPlayerScript : MonoBehaviour
         }
 
         movement = new Vector2(moveX, moveY).normalized;
+
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            transform.localScale = new Vector3(2f, 2f, 2f);
+        }
     }
 
     void FixedUpdate()
