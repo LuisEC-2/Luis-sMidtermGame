@@ -8,6 +8,9 @@ public class SPlayerScript : MonoBehaviour
     public float WalkSpeed = 10f;
     public Vector2 movement;
 
+    public BulletScrip BulletPrefab;
+    
+    
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -60,10 +63,9 @@ public class SPlayerScript : MonoBehaviour
 
         movement = new Vector2(moveX, moveY).normalized;
 
-
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKey(KeyCode.Space))
         {
-            transform.localScale = new Vector3(2f, 2f, 2f);
+            Instantiate(BulletPrefab, transform.position+new Vector3(1f,0,0), Quaternion.identity);
         }
     }
 

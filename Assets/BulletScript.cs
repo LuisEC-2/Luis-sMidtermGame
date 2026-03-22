@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class ButtonScript : MonoBehaviour
+public class BulletScript : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -13,13 +13,4 @@ public class ButtonScript : MonoBehaviour
     {
         
     }
-
-    public void OnTriggerEnter(Collider other)
-    {
-        if (other.CompareTag("TPlayer"))
-        {
-            
-        }
-    }
 }
-

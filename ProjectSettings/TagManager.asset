@@ -10,6 +10,7 @@ TagManager:
   - ButtonT
   - ButtonS
   - ButtonC
+  - BulletWall
   layers:
   - Default
   - TransparentFX

@@ -16,7 +16,6 @@ public class CPlayerScript : MonoBehaviour
     void Start()
     {
         StartScale = transform.localScale;
-        
     }
 
     void OnCollisionStay2D(Collision2D bodypart)
