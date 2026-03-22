@@ -2971,7 +2971,7 @@ GameObject:
   - component: {fileID: 1288489200}
   m_Layer: 0
   m_Name: T Player
-  m_TagString: Player
+  m_TagString: PlayerT
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3520,7 +3520,7 @@ GameObject:
   - component: {fileID: 1386437407}
   m_Layer: 0
   m_Name: C Player
-  m_TagString: Player
+  m_TagString: PlayerC
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4646,6 +4646,9 @@ MonoBehaviour:
   TplayerScript: {fileID: 1288489199}
   SplayerScript: {fileID: 2056726528}
   CplayerScript: {fileID: 1386437408}
+  TButton: {fileID: 0}
+  SButton: {fileID: 0}
+  Cutton: {fileID: 0}
 --- !u!4 &1779411514
 Transform:
   m_ObjectHideFlags: 0
@@ -4958,7 +4961,7 @@ GameObject:
   - component: {fileID: 2056726529}
   m_Layer: 0
   m_Name: S Player
-  m_TagString: Player
+  m_TagString: PlayerS
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5555,6 +5558,18 @@ PrefabInstance:
       propertyPath: m_Name
       value: C Button
       objectReference: {fileID: 0}
+    - target: {fileID: 5750078462220590318, guid: bdfbfe24b0a0649a08416b1d75f26004, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750078462220590318, guid: bdfbfe24b0a0649a08416b1d75f26004, type: 3}
+      propertyPath: m_Color.g
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 5750078462220590318, guid: bdfbfe24b0a0649a08416b1d75f26004, type: 3}
+      propertyPath: m_Color.r
+      value: 0.27450982
+      objectReference: {fileID: 0}
     - target: {fileID: 8063193391682836592, guid: bdfbfe24b0a0649a08416b1d75f26004, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.55
@@ -5656,6 +5671,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6158123371026653585, guid: 2ec3a190eff924a4bafda78b45695543, type: 3}
+      propertyPath: m_Color.b
+      value: 0.27450982
+      objectReference: {fileID: 0}
+    - target: {fileID: 6158123371026653585, guid: 2ec3a190eff924a4bafda78b45695543, type: 3}
+      propertyPath: m_Color.g
+      value: 0.12941177
+      objectReference: {fileID: 0}
+    - target: {fileID: 6158123371026653585, guid: 2ec3a190eff924a4bafda78b45695543, type: 3}
+      propertyPath: m_Color.r
+      value: 0.011764706
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5712,6 +5739,10 @@ PrefabInstance:
     - target: {fileID: 3897380495765134158, guid: 4ef391d9bdecc45e99b0e6e962ddec05, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4483210313589717099, guid: 4ef391d9bdecc45e99b0e6e962ddec05, type: 3}
+      propertyPath: m_Color.r
+      value: 0.27450982
       objectReference: {fileID: 0}
     - target: {fileID: 9132213497095237334, guid: 4ef391d9bdecc45e99b0e6e962ddec05, type: 3}
       propertyPath: m_IsTrigger

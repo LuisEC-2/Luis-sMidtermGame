@@ -1,5 +1,7 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.HID;
 using UnityEngine.SceneManagement;
 
 public class MainPlayerCode : MonoBehaviour
@@ -16,9 +18,24 @@ public class MainPlayerCode : MonoBehaviour
     public MonoBehaviour SplayerScript;
     public MonoBehaviour CplayerScript;
 
+    
+    //Buttons Scripts
+    public MonoBehaviour TButton;
+    public MonoBehaviour SButton;
+    public MonoBehaviour Cutton;
+
+    private void OnTriggerStay(Collider other)
+    {
+      //  if (other.gameObject.tag == "Button")
+    }
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        //Starts game controlling Head
+        SplayerScript.enabled = true; 
+        TplayerScript.enabled = false; 
+        CplayerScript.enabled = false;
     }
 
     // Update is called once per frame
@@ -50,6 +67,8 @@ public class MainPlayerCode : MonoBehaviour
             CplayerScript.enabled = true;
         }
     }
+    
+    
 }
 
       

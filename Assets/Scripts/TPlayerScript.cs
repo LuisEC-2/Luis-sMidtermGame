@@ -16,7 +16,15 @@ public class TPlayerScript : MonoBehaviour
 
     void OnCollisionStay2D(Collision2D bodypart)
     {
-        if (bodypart.gameObject.tag == "Player")
+        if (bodypart.gameObject.tag == "PlayerT")
+        {
+            PRB.linearVelocity = Vector2.zero;
+        }
+        if (bodypart.gameObject.tag == "PlayerS")
+        {
+            PRB.linearVelocity = Vector2.zero;
+        }
+        if (bodypart.gameObject.tag == "PlayerC")
         {
             PRB.linearVelocity = Vector2.zero;
         }
