@@ -1,5 +1,9 @@
+using System;
 using UnityEngine;
+using UnityEngine.InputSystem;
+using UnityEngine.InputSystem.HID;
 using UnityEngine.SceneManagement;
+
 
 public class TPlayerScript : MonoBehaviour
 
