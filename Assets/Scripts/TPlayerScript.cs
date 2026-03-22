@@ -7,7 +7,8 @@ public class TPlayerScript : MonoBehaviour
     public Rigidbody2D PRB;
     public float WalkSpeed = 10f;
     public Vector2 movement;
-    
+
+    private float DashTimer;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -59,10 +60,26 @@ public class TPlayerScript : MonoBehaviour
         }
 
         movement = new Vector2(moveX, moveY).normalized;
+
+        if (DashTimer > 0)
+        {
+            DashTimer -= Time.deltaTime;
+        }
+        else
+        {
+            PRB.linearVelocity = movement * WalkSpeed;
+        }
+        
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            DashTimer = 0.1f;
+            float Dash = 25f;
+            PRB.linearVelocity = (movement.normalized * Dash);
+        }
     }
 
     void FixedUpdate()
     {
-        PRB.linearVelocity = movement * WalkSpeed;
+   //     PRB.linearVelocity = movement * WalkSpeed;
     }
 }
