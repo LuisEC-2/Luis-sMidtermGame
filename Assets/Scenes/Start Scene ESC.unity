@@ -463,7 +463,7 @@ GameObject:
   - component: {fileID: 121231674}
   - component: {fileID: 121231673}
   m_Layer: 0
-  m_Name: Sq left 1st wall (4)
+  m_Name: 'Sq left 5th wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -583,11 +583,11 @@ Transform:
   m_GameObject: {fileID: 121231672}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.61, y: -7.44, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: -1.1695151, y: -3.5929132, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &204067130
 GameObject:
@@ -812,7 +812,7 @@ Transform:
   m_GameObject: {fileID: 208416095}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.07, y: 4.98, z: 0}
+  m_LocalPosition: {x: -2.07, y: 6.26, z: 0}
   m_LocalScale: {x: 9.374355, y: 2.6767957, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1028,7 +1028,7 @@ GameObject:
   - component: {fileID: 290259547}
   - component: {fileID: 290259546}
   m_Layer: 0
-  m_Name: Sq left 1st wall (6)
+  m_Name: 'Sq right 5th wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1148,11 +1148,11 @@ Transform:
   m_GameObject: {fileID: 290259545}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.37, y: -7.5, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: 2.3473248, y: -3.6451104, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &300450234
 GameObject:
@@ -1166,7 +1166,7 @@ GameObject:
   - component: {fileID: 300450236}
   - component: {fileID: 300450235}
   m_Layer: 0
-  m_Name: Sq left 1st wall (7)
+  m_Name: 'Sq left 6th wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1286,11 +1286,11 @@ Transform:
   m_GameObject: {fileID: 300450234}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.61, y: -8.48, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: -1.1695151, y: -4.4976654, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &519420028
 GameObject:
@@ -1441,7 +1441,7 @@ GameObject:
   - component: {fileID: 521248811}
   - component: {fileID: 521248810}
   m_Layer: 0
-  m_Name: Sq left 1st wall (8)
+  m_Name: Sq wall tigger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1561,11 +1561,11 @@ Transform:
   m_GameObject: {fileID: 521248809}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -9.05, y: -5.14, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: 0.61378795, y: -1.07, z: 0}
+  m_LocalScale: {x: 0.73483, y: 0.73483, z: 0.73483}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &521277795
 GameObject:
@@ -1670,7 +1670,7 @@ GameObject:
   - component: {fileID: 531149314}
   - component: {fileID: 531149313}
   m_Layer: 0
-  m_Name: Sq left 1st wall (11)
+  m_Name: Sq front right wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1790,11 +1790,11 @@ Transform:
   m_GameObject: {fileID: 531149312}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.81, y: -3.31, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: 1.1529258, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &553165195
 GameObject:
@@ -2087,7 +2087,7 @@ GameObject:
   - component: {fileID: 566657107}
   - component: {fileID: 566657106}
   m_Layer: 0
-  m_Name: Sq left 1st wall
+  m_Name: Sq left 2nd wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2102,11 +2102,11 @@ Transform:
   m_GameObject: {fileID: 566657104}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.61, y: -4.25, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: -1.1695151, y: -0.8177575, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &566657106
 BoxCollider2D:
@@ -2400,7 +2400,7 @@ GameObject:
   - component: {fileID: 655679932}
   - component: {fileID: 655679931}
   m_Layer: 0
-  m_Name: 'Sq right 1st wall '
+  m_Name: 'Sq right 2nd wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2520,11 +2520,11 @@ Transform:
   m_GameObject: {fileID: 655679930}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.37, y: -4.26, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: 2.3473248, y: -0.8264572, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &680474217
 GameObject:
@@ -3106,7 +3106,7 @@ GameObject:
   - component: {fileID: 1251483578}
   - component: {fileID: 1251483577}
   m_Layer: 0
-  m_Name: Sq left 1st wall (1)
+  m_Name: Sq left 3rd wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3226,11 +3226,11 @@ Transform:
   m_GameObject: {fileID: 1251483576}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.61, y: -5.34, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: -1.1695151, y: -1.7660083, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1264506851
 GameObject:
@@ -3458,7 +3458,7 @@ Transform:
   m_GameObject: {fileID: 1288489196}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.58489, y: -0.31628, z: 0}
+  m_LocalPosition: {x: -6.58489, y: 1.72, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3702,7 +3702,7 @@ GameObject:
   - component: {fileID: 1338672163}
   - component: {fileID: 1338672162}
   m_Layer: 0
-  m_Name: Sq right 1st wall  (1)
+  m_Name: 'Sq right 1st wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3822,11 +3822,11 @@ Transform:
   m_GameObject: {fileID: 1338672161}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.37, y: -3.22, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: 2.3473248, y: 0.07829585, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1344462250
 GameObject:
@@ -4145,7 +4145,7 @@ Transform:
   m_GameObject: {fileID: 1386437403}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.28489006, y: -0.14628, z: 0}
+  m_LocalPosition: {x: -0.28489006, y: 1.96, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -4530,7 +4530,7 @@ GameObject:
   - component: {fileID: 1443977430}
   - component: {fileID: 1443977429}
   m_Layer: 0
-  m_Name: Sq left 1st wall (10)
+  m_Name: 'Sq front left wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4566,7 +4566,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -4653,7 +4653,21 @@ Transform:
   m_LocalPosition: {x: -10.2, y: -3.31, z: 0}
   m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 531149315}
+  - {fileID: 1508317011}
+  - {fileID: 566657105}
+  - {fileID: 1251483579}
+  - {fileID: 1478159485}
+  - {fileID: 121231675}
+  - {fileID: 300450237}
+  - {fileID: 521248812}
+  - {fileID: 1338672164}
+  - {fileID: 655679933}
+  - {fileID: 1714298165}
+  - {fileID: 2111730983}
+  - {fileID: 290259548}
+  - {fileID: 1714895231}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1478159482
@@ -4668,7 +4682,7 @@ GameObject:
   - component: {fileID: 1478159484}
   - component: {fileID: 1478159483}
   m_Layer: 0
-  m_Name: Sq left 1st wall (3)
+  m_Name: 'Sq left 4th wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -4788,11 +4802,11 @@ Transform:
   m_GameObject: {fileID: 1478159482}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.61, y: -6.4, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: -1.1695151, y: -2.6881602, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1480534383
 GameObject:
@@ -4944,7 +4958,7 @@ GameObject:
   - component: {fileID: 1508317010}
   - component: {fileID: 1508317009}
   m_Layer: 0
-  m_Name: Sq left 1st wall (12)
+  m_Name: 'Sq left 1st wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5064,11 +5078,11 @@ Transform:
   m_GameObject: {fileID: 1508317008}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -11.61, y: -3.32, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: -1.1695151, y: -0.008699539, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1631735359
 GameObject:
@@ -5253,7 +5267,7 @@ GameObject:
   - component: {fileID: 1714298164}
   - component: {fileID: 1714298163}
   m_Layer: 0
-  m_Name: Sq left 1st wall (2)
+  m_Name: Sq right 3rd wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5373,11 +5387,11 @@ Transform:
   m_GameObject: {fileID: 1714298162}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.37, y: -5.33, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: 2.3473248, y: -1.7573085, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1714895228
 GameObject:
@@ -5391,7 +5405,7 @@ GameObject:
   - component: {fileID: 1714895230}
   - component: {fileID: 1714895229}
   m_Layer: 0
-  m_Name: Sq left 1st wall (9)
+  m_Name: Sq right 6th wall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5511,11 +5525,11 @@ Transform:
   m_GameObject: {fileID: 1714895228}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.37, y: -8.48, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: 2.3473248, y: -4.4976654, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1724826330
 GameObject:
@@ -5998,7 +6012,7 @@ Transform:
   m_GameObject: {fileID: 2056726525}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -3.2848902, y: -0.116280004, z: 0}
+  m_LocalPosition: {x: -3.2848902, y: 1.4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -6380,7 +6394,7 @@ GameObject:
   - component: {fileID: 2111730982}
   - component: {fileID: 2111730981}
   m_Layer: 0
-  m_Name: Sq left 1st wall (5)
+  m_Name: 'Sq right 4th wall '
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -6500,11 +6514,11 @@ Transform:
   m_GameObject: {fileID: 2111730980}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.37, y: -6.44, z: 0}
-  m_LocalScale: {x: 1.2056277, y: 1.1494851, z: 3.4558165}
+  m_LocalPosition: {x: 2.3473248, y: -2.7229583, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1443977431}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1453632893577550094
 PrefabInstance:
@@ -6687,7 +6701,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3897380495765134158, guid: 4ef391d9bdecc45e99b0e6e962ddec05, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.43
+      value: -5.75
       objectReference: {fileID: 0}
     - target: {fileID: 3897380495765134158, guid: 4ef391d9bdecc45e99b0e6e962ddec05, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6799,19 +6813,5 @@ SceneRoots:
   - {fileID: 3800341163182407041}
   - {fileID: 1102282387}
   - {fileID: 1453632893577550094}
-  - {fileID: 3893654569968495287}
-  - {fileID: 566657105}
-  - {fileID: 1508317011}
   - {fileID: 1443977431}
-  - {fileID: 531149315}
-  - {fileID: 1251483579}
-  - {fileID: 1478159485}
-  - {fileID: 121231675}
-  - {fileID: 300450237}
-  - {fileID: 521248812}
-  - {fileID: 1714895231}
-  - {fileID: 1714298165}
-  - {fileID: 2111730983}
-  - {fileID: 290259548}
-  - {fileID: 655679933}
-  - {fileID: 1338672164}
+  - {fileID: 3893654569968495287}
