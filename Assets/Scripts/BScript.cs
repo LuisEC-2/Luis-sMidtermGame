@@ -12,6 +12,10 @@ public class BScript : MonoBehaviour
     private bool Pressed;
     private bool Vicinity;
 
+    public SpriteRenderer BT;
+    public SpriteRenderer BC;
+    public SpriteRenderer BS;
+
     public void OnTriggerEnter2D(Collider2D player)
     {
         Debug.Log("CHECK -> My name: [" + gameObject.name + "] | Player Tag: [" + player.tag + "]");
@@ -22,6 +26,8 @@ public class BScript : MonoBehaviour
             Pressed = true;
             Gscore++;
             Debug.Log("GScore:1 " + Gscore);
+            BT.color = Color.green;
+
         }
 
         else if (gameObject.name == "CButton" && player.CompareTag("PlayerC"))
@@ -29,6 +35,7 @@ public class BScript : MonoBehaviour
             Pressed = true;
             Gscore++;
             Debug.Log("GScore:2 " + Gscore);
+            BC.color = Color.green;
         }
 
         else if (gameObject.name == "SButton" && player.CompareTag("PlayerS"))
@@ -36,6 +43,7 @@ public class BScript : MonoBehaviour
             Pressed = true;
             Gscore++;
             Debug.Log("GScore:3 " + Gscore);
+            BS.color = Color.green;
         }
 
         if (Gscore >= 3)
