@@ -17,7 +17,7 @@ public class BScript : MonoBehaviour
     public SpriteRenderer BT;
     public SpriteRenderer BC;
     public SpriteRenderer BS;
-
+    //For enemy variable and components
     public GameObject Enemy;
     private bool enemyspawn;
    // public string StartScene2;
@@ -70,7 +70,7 @@ public class BScript : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   //If theirs no gate and enemy has not spawned, isntantiate an enemy and make the spawn true
         if (gate == null && !enemyspawn)
         {
             Instantiate(Enemy, new Vector2(9.4f, 1.4f), Quaternion.identity);
@@ -78,6 +78,8 @@ public class BScript : MonoBehaviour
         }
     }
 
+    
+    
    //  private void OnCollisionEnter2D(Collision2D other)
     //{
   //      if (other.gameObject.CompareTag("Enemy"))
