@@ -6,46 +6,44 @@ using UnityEngine.SceneManagement;
 
 
 public class BScript : MonoBehaviour
-{
+{   //Gscore is static so that its shared amongst the buttons, button trigger 'pressed'
     public static int Gscore;
     public GameObject gate;
     private bool Pressed;
-    private bool Vicinity;
 
+    //SpriteR's for buttons (to turn green)
     public SpriteRenderer BT;
     public SpriteRenderer BC;
     public SpriteRenderer BS;
 
     public void OnTriggerEnter2D(Collider2D player)
-    {
-        Debug.Log("CHECK -> My name: [" + gameObject.name + "] | Player Tag: [" + player.tag + "]");
+    {   //If pressed, can't be pressed again to conflict the score
         if (Pressed) return;
 
+        //Each if and compare tag is so once the button is pressed by player it will add to score of gate leading to it 'opening' 
         if (gameObject.name == "TButton" && player.CompareTag("PlayerT"))
         {
             Pressed = true;
             Gscore++;
-            Debug.Log("GScore:1 " + Gscore);
+            //Debug.Log("GScore:1 " + Gscore);
             BT.color = Color.green;
 
         }
-
         else if (gameObject.name == "CButton" && player.CompareTag("PlayerC"))
         {
             Pressed = true;
             Gscore++;
-            Debug.Log("GScore:2 " + Gscore);
+            //Debug.Log("GScore:2 " + Gscore);
             BC.color = Color.green;
         }
-
         else if (gameObject.name == "SButton" && player.CompareTag("PlayerS"))
         {
             Pressed = true;
             Gscore++;
-            Debug.Log("GScore:3 " + Gscore);
+            //Debug.Log("GScore:3 " + Gscore);
             BS.color = Color.green;
         }
-
+        //If gate score is greater or equal to 3 (buttons pressed) and the gate is present then destroy it
         if (Gscore >= 3)
         {
             if (gate != null)
@@ -53,17 +51,11 @@ public class BScript : MonoBehaviour
                 Destroy(gate);
             }
         }
-
-        if (gameObject.name == "Pathway" && player.CompareTag("PlayerS") && player.CompareTag("PlayerT") && player.CompareTag("PlayerC"))
-        {
-            Vicinity = true;
-            SceneManager.LoadScene("Scenes/To Be Continued");
-        }
     }
 
 // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
-    {
+    {  //At start score always 0
        Gscore = 0;
     }
 

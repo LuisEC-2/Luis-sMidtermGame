@@ -11,7 +11,7 @@ public class ScreenChanger : MonoBehaviour
 
 
     void OnTriggerEnter2D(Collider2D other)
-    {
+    {   //Esc scene to last scene via gate trigger, pathway hold the script for communication
         if (other.gameObject.CompareTag("PlayerS") || other.gameObject.CompareTag("PlayerT") ||
             other.gameObject.CompareTag("PlayerC"))
         {
@@ -40,7 +40,7 @@ public class ScreenChanger : MonoBehaviour
 
     // Update is called once per frame
     void Update()
-    {
+    {   //From 1st scene to Esc scene
         if (Input.GetKeyDown(KeyCode.Return) || Input.GetKeyDown(KeyCode.KeypadEnter))
         {
             LoadGameScene();
