@@ -70,7 +70,7 @@ public class SPlayerScript : MonoBehaviour
         movement = new Vector2(moveX, moveY).normalized;
 
         //Press space to create bullet clones right of player position
-        if (Input.GetKey(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             Instantiate(BulletPrefab, transform.position+new Vector3(1f,0,0), Quaternion.identity);
         }

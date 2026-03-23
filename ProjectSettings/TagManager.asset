@@ -11,6 +11,7 @@ TagManager:
   - ButtonS
   - ButtonC
   - BulletWall
+  - Pathway
   layers:
   - Default
   - TransparentFX

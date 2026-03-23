@@ -10,6 +10,7 @@ public class BScript : MonoBehaviour
     public static int Gscore;
     public GameObject gate;
     private bool Pressed;
+    private bool Vicinity;
 
     public void OnTriggerEnter2D(Collider2D player)
     {
@@ -43,6 +44,12 @@ public class BScript : MonoBehaviour
             {
                 Destroy(gate);
             }
+        }
+
+        if (gameObject.name == "Pathway" && player.CompareTag("PlayerS") && player.CompareTag("PlayerT") && player.CompareTag("PlayerC"))
+        {
+            Vicinity = true;
+            SceneManager.LoadScene("Scenes/To Be Continued");
         }
     }
 
