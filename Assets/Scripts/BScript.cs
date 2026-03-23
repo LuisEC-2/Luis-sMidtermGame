@@ -1,4 +1,5 @@
 using System;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.InputSystem.HID;
@@ -6,7 +7,8 @@ using UnityEngine.SceneManagement;
 
 
 public class BScript : MonoBehaviour
-{   //Gscore is static so that its shared amongst the buttons, button trigger 'pressed'
+{
+    //Gscore is static so that its shared amongst the buttons, button trigger 'pressed'
     public static int Gscore;
     public GameObject gate;
     private bool Pressed;
@@ -16,8 +18,13 @@ public class BScript : MonoBehaviour
     public SpriteRenderer BC;
     public SpriteRenderer BS;
 
+    public GameObject Enemy;
+    private bool enemyspawn;
+   // public string StartScene2;
+
     public void OnTriggerEnter2D(Collider2D player)
-    {   //If pressed, can't be pressed again to conflict the score
+    {
+        //If pressed, can't be pressed again to conflict the score
         if (Pressed) return;
 
         //Each if and compare tag is so once the button is pressed by player it will add to score of gate leading to it 'opening' 
@@ -43,6 +50,7 @@ public class BScript : MonoBehaviour
             //Debug.Log("GScore:3 " + Gscore);
             BS.color = Color.green;
         }
+
         //If gate score is greater or equal to 3 (buttons pressed) and the gate is present then destroy it
         if (Gscore >= 3)
         {
@@ -55,14 +63,32 @@ public class BScript : MonoBehaviour
 
 // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
-    {  //At start score always 0
-       Gscore = 0;
+    {
+        //At start score always 0
+        Gscore = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-
+        if (gate == null && !enemyspawn)
+        {
+            Instantiate(Enemy, new Vector2(9.4f, 1.4f), Quaternion.identity);
+            enemyspawn = true;
+        }
     }
+
+   //  private void OnCollisionEnter2D(Collision2D other)
+    //{
+  //      if (other.gameObject.CompareTag("Enemy"))
+     //   {
+   //         Restart();
+      //  }
+   // }
+
+  //  public void Restart()
+   // {
+  //      SceneManager.LoadScene(StartScene2);
+   // }
 }
 

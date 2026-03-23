@@ -12,6 +12,7 @@ TagManager:
   - ButtonC
   - BulletWall
   - Pathway
+  - Enemy
   layers:
   - Default
   - TransparentFX
